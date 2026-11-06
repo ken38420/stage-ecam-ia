@@ -69,3 +69,5 @@ Dépôt **public** : ne pousse **jamais** ton CV, ton profil rempli ou tes candi
 ## 🤝 Contribuer
 
 Programme de coloration à corriger, secteur à ajouter, IA testée : voir [CONTRIBUTING.md](CONTRIBUTING.md).
+
+Built with Claude

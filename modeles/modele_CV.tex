@@ -1,0 +1,96 @@
+% Modèle de CV une page, compatible ATS (pdfLaTeX).
+% Remplacer tout ce qui est entre [crochets] à partir de profil_candidat.md.
+% Supprimer les blocs inutiles plutôt que de laisser des crochets.
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\usepackage[left=0.75in, right=0.75in, top=0.6in, bottom=0.6in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{charter}
+
+\definecolor{mainblue}{RGB}{0, 43, 91}
+\definecolor{darkgray}{RGB}{50, 50, 50}
+
+\hypersetup{colorlinks=true, linkcolor=mainblue, urlcolor=mainblue}
+
+\setlist[itemize]{leftmargin=0.18in, itemsep=3pt, topsep=3pt}
+
+\titleformat{\section}
+  {\large\bfseries\color{mainblue}\uppercase}
+  {}{0em}
+  {}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+
+\begin{document}
+\pagestyle{empty}
+\color{darkgray}
+
+% --- EN-TÊTE --- (titre = intitulé exact de l'offre)
+\begin{center}
+    {\Huge \bfseries \color{mainblue} [PRÉNOM NOM]} \\ \vspace{6pt}
+    {\large \textbf{Stage de fin d'études -- [Intitulé exact de l'offre]}} \\ \vspace{2pt}
+    \small Disponible à partir de [mois année] -- [durée] mois $\cdot$ Mobile : [mobilité] \\ \vspace{6pt}
+    \small [Ville], France $\cdot$ \href{mailto:[email]}{[email]} $\cdot$ [téléphone] $\cdot$ \href{[URL LinkedIn]}{[linkedin.com/in/...]}
+\end{center}
+
+% --- FORMATION ---
+\section{Formation}
+
+\noindent
+\textbf{ECAM LaSalle} -- Diplôme d'ingénieur (dernière année) \hfill [Mois. AAAA] -- [Mois. AAAA] \\
+\textit{Spécialisation [coloration]} \hfill [Ville]
+\begin{itemize}
+    \item [Projet ou cours directement lié à l'offre -- facultatif, 1 bullet max].
+\end{itemize}
+
+\vspace{4pt}
+
+\noindent
+\textbf{[Établissement d'échange ou formation précédente]} -- [Diplôme / programme] \hfill [Mois. AAAA] -- [Mois. AAAA] \\
+\textit{[Spécialité, langue des cours]} \hfill [Ville, pays]
+
+% --- EXPÉRIENCE --- (classées par pertinence pour l'offre)
+\section{Expérience}
+
+\noindent
+\textbf{[Entreprise]} -- [Intitulé du poste] \hfill [Mois. AAAA] -- [Mois. AAAA] \\
+\textit{[Secteur / service]} \hfill [Ville]
+\begin{itemize}
+    \item [Verbe d'action + \textbf{mot-clé de l'offre} + contexte + résultat réel].
+    \item [Deuxième bullet facultatif, une ligne].
+\end{itemize}
+
+\vspace{4pt}
+
+\noindent
+\textbf{[Association]} -- [Rôle exact] (association étudiante) \hfill [Mois. AAAA] -- [Mois. AAAA] \\
+\textit{[Projet]} \hfill [Ville]
+\begin{itemize}
+    \item [Action concrète avec un mot-clé de l'offre].
+\end{itemize}
+
+% --- COMPÉTENCES --- (outils cités dans l'offre en premier)
+\section{Compétences}
+
+\begin{itemize}[label={},leftmargin=0in,itemsep=5pt]
+    \item \textbf{[Catégorie 1, ex. CAO / Calcul] :} [outil], [outil], [outil]
+    \item \textbf{[Catégorie 2, ex. Méthodes] :} [méthode], [méthode], [méthode]
+    \item \textbf{[Catégorie 3, ex. Data / Bureautique] :} [outil], [outil]
+    \item \textbf{Langues :} Français (natif), Anglais ([niveau réel])
+\end{itemize}
+
+% --- CENTRES D'INTÉRÊT ---
+\section{Centres d'intérêt}
+
+\noindent
+\textbf{[Activité]} -- [Fait concret : niveau, durée, résultat].
+
+\end{document}

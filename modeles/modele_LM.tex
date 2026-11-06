@@ -1,0 +1,62 @@
+% Modèle de lettre de motivation une page (pdfLaTeX).
+% 250 à 350 mots. Remplacer tout ce qui est entre [crochets].
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\input{glyphtounicode}
+\pdfgentounicode=1
+\usepackage[scaled=0.95]{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[left=1in, right=1in, top=0.9in, bottom=0.9in]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{microtype}
+
+\definecolor{linkblue}{RGB}{70, 120, 142}
+\hypersetup{colorlinks=true, urlcolor=linkblue}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{7pt}
+\linespread{1.12}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\emergencystretch=3em
+
+\begin{document}
+\pagestyle{empty}
+
+% --- EXPÉDITEUR ---
+[Prénom Nom]\\[4pt]
+[Ville], France\\[4pt]
+[Téléphone]\\[4pt]
+\href{mailto:[email]}{\underline{[email]}}
+
+\vspace{20pt}
+
+% --- OBJET ---
+{\raggedright \textbf{Objet~: Candidature, Stage [année], [Intitulé exact], [Entreprise], [Lieu]}\par}
+
+Madame, Monsieur,
+
+% 1. Accroche : un fait précis et vérifié sur le site, le produit ou l'enjeu du poste, relié à la mission.
+[Accroche, 2 à 3 phrases.]
+
+% 2. Preuves : 2 ou 3 exigences de l'offre, chacune prouvée par une expérience réelle.
+[Exigence 1 → expérience : contexte, action, résultat.]
+
+[Exigence 2 → expérience : contexte, action, résultat.]
+
+% 3. Ce qui manque, dit sobrement.
+[Je n'ai encore jamais fait X~: c'est ce que je viens apprendre.]
+
+% 4. Centre d'intérêt relié à une exigence du poste.
+[Une ou deux phrases.]
+
+% 5. Clôture : date de début, durée, écart éventuel avec l'offre.
+Mon stage de fin d'études peut commencer en [mois année], pour [durée] mois. Je serais heureux d'en échanger avec vous lors d'un entretien.
+
+Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+[Prénom Nom]
+
+\end{document}

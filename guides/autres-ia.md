@@ -4,7 +4,7 @@ Tout marche dès que l'IA accepte **des instructions** et **des fichiers**.
 
 ## Si l'IA a un espace « projet », « agent » ou « assistant »
 1. Colle `PROMPT.md` dans le champ d'instructions.
-2. Ajoute les fichiers de `fichiers/` et `modeles/`, plus ton CV.
+2. Ajoute les fichiers de `fichiers/` et `modeles/`. Ton CV, tu l'enverras dans la conversation au démarrage.
 3. « Commence l'onboarding ».
 
 ## Si l'IA n'a qu'une conversation simple

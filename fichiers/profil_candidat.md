@@ -1,6 +1,6 @@
 # Profil candidat — données confirmées
 
-> Fichier rempli pendant l'onboarding, puis complété à chaque réponse.
+> Rempli automatiquement à partir du CV et de la liste à cocher de la coloration, puis complété à chaque réponse.
 > Règle : seul ce qui est écrit ici est confirmé. Chaque ajout est daté (JJ/MM/AAAA).
 > `[À REMPLIR]` = pas encore renseigné : l'IA doit poser la question.
 
@@ -24,6 +24,13 @@
 - Mobilité : [À REMPLIR] (villes, régions, pays acceptés ou refusés)
 - Rémunération / logement : [À REMPLIR si contrainte]
 - Phrase type pour signaler un écart de date dans la lettre : « Mon calendrier d'école m'impose un démarrage en [mois année], pour six mois. Si ce décalage reste envisageable, je serais heureux d'en échanger avec vous lors d'un entretien. »
+
+## 2 bis. Cursus et coloration ECAM
+- Cursus : [À REMPLIR] (Arts et Métiers / Engineering)
+- Coloration ou pathway : [À REMPLIR]
+- Éléments cochés dans `colorations_ecam.md` (C = cours, P = projet/TP) : [À REMPLIR]
+- Éléments non cochés = non revendiqués.
+- Métiers visés : [À REMPLIR]
 
 ## 3. Formation (dates de référence, format « Mois. AAAA -- Mois. AAAA »)
 | Établissement | Diplôme / spécialisation | Dates | Lieu | Cours ou projets à mettre en avant |

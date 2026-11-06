@@ -3,6 +3,7 @@
 Le kit s'améliore avec les retours de chaque promo.
 
 ## Ce qui est utile
+- **Colorations** : corriger ou compléter `fichiers/colorations_ecam.md` selon le programme réel de ta promo (outils, plateformes, projets). C'est le fichier le plus utile à tenir à jour.
 - **Banques de mots-clés** : un nouveau secteur dans `fichiers/methode_candidature.md` §3 (format [A] / [V] / angle narratif). Pas de [P] : ils sont propres à chaque étudiant.
 - **Guides** : une IA testée, un menu qui a changé.
 - **Règles** : une consigne mal suivie par une IA, une meilleure formulation dans `PROMPT.md`.

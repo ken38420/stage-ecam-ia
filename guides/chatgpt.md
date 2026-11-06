@@ -5,7 +5,7 @@ Deux options. Les menus peuvent changer : cherche l'équivalent si un bouton a b
 ## Option A — Projet ChatGPT (recommandé)
 1. Barre latérale → **Nouveau projet** → nomme-le « Stage de fin d'études ».
 2. Ouvre les **instructions du projet** et colle tout le contenu de `PROMPT.md`.
-3. Ajoute dans les **fichiers du projet** : les 4 fichiers de `fichiers/`, les 2 de `modeles/` et ton CV.
+3. Ajoute dans les **fichiers du projet** : les 5 fichiers de `fichiers/` et les 2 de `modeles/`. Ton CV, tu l'enverras dans la conversation au démarrage.
 4. Nouvelle conversation dans le projet → « Commence l'onboarding ».
 
 ## Option B — GPT personnalisé

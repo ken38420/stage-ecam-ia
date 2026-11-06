@@ -5,7 +5,7 @@ Les menus peuvent changer : cherche l'équivalent si un bouton a bougé.
 ## Avec un Gem (recommandé)
 1. Barre latérale → **Explorer les Gems** → **Nouveau Gem** ; nomme-le « Stage de fin d'études ».
 2. **Instructions** : colle tout le contenu de `PROMPT.md`.
-3. **Connaissances** : ajoute les 4 fichiers de `fichiers/`, les 2 de `modeles/` et ton CV (depuis ton ordinateur ou Google Drive).
+3. **Connaissances** : ajoute les 5 fichiers de `fichiers/` et les 2 de `modeles/` (depuis ton ordinateur ou Google Drive). Ton CV, tu l'enverras dans la conversation au démarrage.
 4. Enregistre, ouvre le Gem → « Commence l'onboarding ».
 
 ## Bon à savoir
